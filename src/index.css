@@ -130,3 +130,32 @@
 .poppins-font {
   font-family: 'Poppins', sans-serif;
 }
+.c-vibrant{
+  color: #2c4f36;
+}
+.c-charcol{
+  color:#2b2b2b;
+}
+.c-blue{
+  color:#82919E;
+}
+.c-cream{
+  color: #fbfaf9;
+}
+.c-light-gray{
+  color:#e8e6e0;
+}
+.c-softgold{
+  color:#b98b3e ;
+}
+.mainh1{
+  @apply  text-[48px] font-bold tracking-[-0.5px];
+}
+
+.mainh2{
+  @apply  text-[36px] font-bold tracking-[-0.5px];
+}
+
+.mainh3{
+  @apply  text-[28px] font-semibold tracking-[0px];
+}
