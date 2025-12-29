@@ -4,7 +4,7 @@ const Services = () => {
   return (
    
     <div className='p-5'>
-      <h2 className='libre-font vibrant'>Services</h2>
+      <h2 className='libre-font mainh2 c-vibrant'>Services</h2>
     </div>
   
   )
