@@ -76,45 +76,38 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className="flex bg-[#fcfaf9] border-red-500 border-3 p-2">
-      <div className="w-[210px] space-y-1 border border-gray-500 p-3">
+    <div className="flex bg-[#f9f7f5] p-2">
+      <div className="w-[210px] space-y-1 border p-3">
         <div className="bg-[#2b2b2b] rounded-lg flex items-center gap-2.5 p-3">
           <LayoutGrid size={20} className="text-white" />
-          <h2 className="text-white text-base font-medium">
-            Dashboard</h2>
+          <h2 className="text-white text-base font-medium">Dashboard</h2>
         </div>
         <div className="bg-transparent rounded-lg flex items-center gap-2.5 p-3">
           <CalendarDays size={20} className="text-[#2b2b2b]" />
-          <h2 className="text-[#2b2b2b] text-base font-medium">
-            Appointments</h2>
+          <h2 className="text-[#2b2b2b] text-base font-medium">Appointments</h2>
         </div>
         <div className="bg-transparent rounded-lg flex items-center gap-2.5 p-3">
           <Heart size={20} className="text-[#2b2b2b]" />
-          <h2 className="text-[#2b2b2b] text-base font-medium">
-            Wellness</h2>
+          <h2 className="text-[#2b2b2b] text-base font-medium">Wellness</h2>
         </div>
         <div className="bg-transparent rounded-lg flex items-center gap-2.5 p-3">
           <TextSearch size={20} className="text-[#2b2b2b]" />
-          <h2 className="text-[#2b2b2b] text-base font-medium">
-            Services</h2>
+          <h2 className="text-[#2b2b2b] text-base font-medium">Services</h2>
         </div>
         <div className="bg-transparent rounded-lg flex items-center gap-2.5 p-3">
           <UserRoundPlus size={20} className="text-[#2b2b2b]" />
-          <h2 className="text-[#2b2b2b] text-base font-medium">
-            Membership</h2>
+          <h2 className="text-[#2b2b2b] text-base font-medium">Membership</h2>
         </div>
         <div className="bg-transparent rounded-lg flex items-center gap-2.5 p-3">
           <NotepadText size={20} className="text-[#2b2b2b]" />
           <h2 className="text-[#2b2b2b] text-base font-medium">
-            Session Summary</h2>
+            Session Summary
+          </h2>
         </div>
         <div className="bg-transparent rounded-lg flex items-center gap-2.5 p-3">
           <FileInput size={20} className="text-[#2b2b2b]" />
-          <h2 className="text-[#2b2b2b] text-base font-medium">
-            Resources</h2>
+          <h2 className="text-[#2b2b2b] text-base font-medium">Resources</h2>
         </div>
-
-
       </div>
       <div className="flex-1">
         <div className="p-3">
@@ -151,9 +144,7 @@ const Dashboard = () => {
                         {practitioner.specialty}
                       </p>
                     </div>
-                    <button
-                      className="w-9 h-9 rounded-full flex items-center justify-center transition-all bg-gray-200 text-gray-600 group-hover:bg-[#c5893a] group-hover:text-white"
-                    >
+                    <button className="w-9 h-9 rounded-full flex items-center justify-center transition-all bg-gray-200 text-gray-600 group-hover:bg-[#c5893a] group-hover:text-white">
                       <MessageCircleMore size={16} />
                     </button>
                   </div>
@@ -225,6 +216,12 @@ const Dashboard = () => {
               <h2>Wellness Half Circle Chart Will be Here</h2>
               <p>75%</p>
             </div>
+          </div>
+        </div>
+
+        <div className="p-4">
+          <div className="p-4 bg-white rounded-3xl">
+            <h2 className="text-[#5f7a3d] libre-font" >Recent Activities</h2>
           </div>
         </div>
       </div>
