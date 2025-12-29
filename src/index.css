@@ -121,3 +121,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.libre-font {
+  font-family: 'Libre Baskerville', serif;
+}
