@@ -16,7 +16,7 @@ const userRoutes = () => {
         {/* Nested Dashboard Routes */}
         <Route index element={<Dashboard />} />
         <Route path="appointment" element={<Appointment />} />
-        <Route path="services" element={<Services />} />
+        <Route path="services" element={<Services />} />      
         <Route path="wellness" element={<Wellness />} />
         <Route path="membership" element={<Membership />} />
         <Route path="session-summary" element={<SessionSummary />} />

@@ -130,6 +130,8 @@
 .poppins-font {
   font-family: 'Poppins', sans-serif;
 }
+/* ====== COLOR VARIABELS ====== */
+
 .c-vibrant{
   color: #2c4f36;
 }
@@ -159,4 +161,13 @@
 
 .mainh3{
   @apply  text-[28px] font-semibold tracking-[0px];
+}
+/* ==== SERVICE BUTTON ==== */
+.service-btn{
+  padding: 0.7rem  1.3rem ;
+  border: 1px solid #2b2b2b;
+  border-radius: 1rem;
+  background: #fbfaf9;
+
+  /* @apply px-8 py-4 rounded-xl bg-white   border border-[#2b2b2b] */
 }
