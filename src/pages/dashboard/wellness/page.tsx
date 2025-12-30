@@ -207,7 +207,9 @@ const Wellness = () => {
                   </div>
                   <div className="flex flex-col">
                     <span className="text-sm text-gray-500">Stress Index</span>
-                    <span className="text-base text-[#2d2d2d] font-semibold">Low</span>
+                    <span className="text-base text-[#2d2d2d] font-semibold">
+                      Low
+                    </span>
                   </div>
                 </div>
                 <span className="text-sm font-medium text-[#5f7a3d]">-12%</span>
@@ -220,11 +222,17 @@ const Wellness = () => {
                     <Activity size={18} className="text-[#10b981]" />
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-sm text-gray-500">Muscle Recovery</span>
-                    <span className="text-base text-[#2d2d2d] font-semibold">Good</span>
+                    <span className="text-sm text-gray-500">
+                      Muscle Recovery
+                    </span>
+                    <span className="text-base text-[#2d2d2d] font-semibold">
+                      Good
+                    </span>
                   </div>
                 </div>
-                <span className="text-sm font-medium text-gray-500">Improving</span>
+                <span className="text-sm font-medium text-gray-500">
+                  Improving
+                </span>
               </div>
 
               {/* Sleep Quality */}
@@ -235,7 +243,9 @@ const Wellness = () => {
                   </div>
                   <div className="flex flex-col">
                     <span className="text-sm text-gray-500">Sleep Quality</span>
-                    <span className="text-base text-[#2d2d2d] font-semibold">7.5 hrs</span>
+                    <span className="text-base text-[#2d2d2d] font-semibold">
+                      7.5 hrs
+                    </span>
                   </div>
                 </div>
                 <span className="text-sm font-medium text-[#5f7a3d]">+12%</span>
@@ -259,7 +269,9 @@ const Wellness = () => {
               <div className="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center">
                 <span className="text-red-500 text-xs font-bold">!</span>
               </div>
-              <span className="text-sm text-red-500">You have 2 forms to complete</span>
+              <span className="text-sm text-red-500">
+                You have 2 forms to complete
+              </span>
             </div>
 
             {/* Forms List */}
@@ -271,8 +283,12 @@ const Wellness = () => {
                     <ClipboardList size={18} className="text-[#c5893a]" />
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-sm font-semibold text-gray-900">Health Intake Form</span>
-                    <span className="text-xs text-gray-400">Due: Nov 25, 2025</span>
+                    <span className="text-sm font-semibold text-gray-900">
+                      Health Intake Form
+                    </span>
+                    <span className="text-xs text-gray-400">
+                      Due: Nov 25, 2025
+                    </span>
                   </div>
                 </div>
                 <ChevronRight size={18} className="text-gray-400" />
@@ -285,8 +301,12 @@ const Wellness = () => {
                     <ClipboardList size={18} className="text-[#c5893a]" />
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-sm font-semibold text-gray-900">Consent Form Update</span>
-                    <span className="text-xs text-gray-400">Due: Nov 30, 2025</span>
+                    <span className="text-sm font-semibold text-gray-900">
+                      Consent Form Update
+                    </span>
+                    <span className="text-xs text-gray-400">
+                      Due: Nov 30, 2025
+                    </span>
                   </div>
                 </div>
                 <ChevronRight size={18} className="text-gray-400" />
@@ -299,18 +319,19 @@ const Wellness = () => {
                     <ClipboardList size={18} className="text-[#5f7a3d]" />
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-sm font-semibold text-gray-900">Wellness Assessment</span>
-                    <span className="text-xs text-gray-400">Completed: Nov 10, 2025</span>
+                    <span className="text-sm font-semibold text-gray-900">
+                      Wellness Assessment
+                    </span>
+                    <span className="text-xs text-gray-400">
+                      Completed: Nov 10, 2025
+                    </span>
                   </div>
                 </div>
                 <ChevronRight size={18} className="text-gray-400" />
-
               </div>
             </div>
           </div>
         </div>
-
-
       </div>
 
       <div className="px-4 pb-4">
