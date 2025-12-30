@@ -29,6 +29,30 @@ const servicesData = [
   },
 ];
 
+const serviceBoxData = [
+  {
+    id: 1,
+    title: "Theraputic massage",
+    description:
+      "A custom-blended session tailored to your needs using multiple techniques such as deep tissue, myofascial release, or trigger point work. Ideal for those requiring experiencing chronic tension, postural imbalance, injury or stress-related pain. Results deepen with each visit as your body unwinds more completamente.",
+    image: "/mm.png",
+  },
+  {
+    id: 2,
+    title: "Deep Tissue Massage",
+    description:
+      "Focused pressure targeting deeper muscle layers to release chronic tension and knots. Perfect for athletes or those with persistent muscle pain seeking lasting relief.",
+    image: "/mm1.png",
+  },
+  {
+    id: 3,
+    title: "Swedish Massage",
+    description:
+      "A gentle, relaxing full-body massage using long strokes and kneading techniques. Ideal for stress relief, improved circulation, and overall relaxation.",
+    image: "/mm.png",
+  },
+];
+
 const Services = () => {
   return (
     <>
@@ -118,27 +142,33 @@ const Services = () => {
       <section className="p-6 bg-[#f7f5ef] ">
         <div className="w-full bg-gray-200 h-[2px] my-5"></div>
         <h2 className="mainh2 c-vibrant libre-font">Massage Therapy</h2>
-        <div className="flex flex-row gap-5 bg-[#fbfaf9] rounded-3xl p-5 shadow-sm">
-          <div className=" w-[50%]">
-            <img className="" src="/mm.png" alt="#" />
-          </div>
-          <div className="py-3 flex flex-col gap-2">
-            <span className="text-xl font-semibold text-[#2b2b2b] libre-font">
-              Theraputic massage
-            </span>
-            <p className="poppins-font text-sm ">
-              A custom-blended session tailored to your needs using multiple
-              techniques such as deep tissue, myofascial release, or trigger
-              point work. Ideal for those requiring experiencing chronic
-              tension, postural imbalance, injury or stress-related pain.
-              Results deepen with each visit as your body unwinds more
-              comoletelv.
-            </p>
-            <div>
-            <button className="service-btn ">BOOK THIS EXPERIENCE</button>
+        <p className="text-gray-700 mt-1">
+          Explore and Book Massage Therapy Services
+        </p>
+        <div></div>
+        {serviceBoxData.map((service) => (
+          <div
+            key={service.id}
+            className="service-box relative flex flex-row gap-5 bg-[#fbfaf9] rounded-3xl p-5 shadow-sm mb-5"
+          >
+            <div className="w-[200px] h-[200px] shrink-0">
+              <img
+                className="w-full h-full object-cover rounded-xl"
+                src={service.image}
+                alt={service.title}
+              />
             </div>
+            <div className="py-3 flex flex-col gap-2 flex-1 pb-14">
+              <span className="text-xl font-semibold text-[#2b2b2b] libre-font">
+                {service.title}
+              </span>
+              <p className="poppins-font text-sm ">
+                {service.description}
+              </p>
+            </div>
+            <button className="service-btn absolute bottom-5 right-5">BOOK THIS EXPERIENCE</button>
           </div>
-        </div>
+        ))}
       </section>
     </>
   );
